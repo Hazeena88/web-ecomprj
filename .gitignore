@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# React
+frontend/build/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+crash.log
+*.backup
+.terraform.lock.hcl
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS/Editor files
+.DS_Store
+.vscode/
+.idea/
