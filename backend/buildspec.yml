@@ -1,13 +1,16 @@
 version: 0.2
+
 phases:
   install:
     runtime-versions:
       nodejs: 18
     commands:
+      - echo Installing source NPM dependencies...
       - npm install
   build:
     commands:
-      - zip -r backend.zip ./*
+      - echo Build phase completed.
 artifacts:
   files:
-    - backend.zip
+    - '**/*'
+
