@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/backend
-node index.js > app.out.log 2> app.err.log < /dev/null &
+cd /home/ec2-user/app
+nohup node index.js > output.log 2>&1 &
