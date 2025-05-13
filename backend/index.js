@@ -25,5 +25,7 @@ app.get("/api/users", async (_, res) => {
   res.send(data.Items);
 });
 
-app.listen(3000, () => console.log("Server running on port 3000"));
+// Change port from 3000 to 80
+app.listen(80, () => console.log("Server running on port 80"));
+
 
